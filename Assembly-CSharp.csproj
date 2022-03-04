@@ -67,24 +67,47 @@
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NatPunchModule.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetDataReader.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPeer.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetConstants.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetThread.cs" />
-    <Compile Include="Assets\Scripts\ItemBox.cs" />
-    <Compile Include="Assets\Scripts\ItemWindow.cs" />
+    <Compile Include="Assets\Scripts\Items\ItemBox.cs" />
+    <Compile Include="Assets\Scripts\Items\ItemWindow.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\SequencedChannel.cs" />
+    <Compile Include="Assets\Scripts\InstanceMonoBehaviour.cs" />
     <Compile Include="Assets\ConsolePro\Remote\ConsoleProRemoteServer.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetDebug.cs" />
+    <Compile Include="Assets\Scripts\Lootlocker.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetManager.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPeerCollection.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetUtils.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Items\Store.cs" />
     <Compile Include="Assets\ConsolePro\Remote\LiteNetLib\NetPacketPool.cs" />
-    <Compile Include="Assets\Scripts\Lootlocker.cs" />
-    <Compile Include="Assets\Scripts\InstanceMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Items\Inventory.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\LowPolyAlienWorld\Documentation.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -660,6 +683,9 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="lootlocker.lootlockersdk.runtime">
+      <HintPath>Library\ScriptAssemblies\lootlocker.lootlockersdk.runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
@@ -725,9 +751,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="lootlocker.lootlockersdk.runtime">
-      <HintPath>Library\ScriptAssemblies\lootlocker.lootlockersdk.runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
