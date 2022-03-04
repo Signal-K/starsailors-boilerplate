@@ -44,3 +44,12 @@ The following packages were added:
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
+
+=== Fri Mar  4 23:06:32 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were removed:
+  com.unity.ui@1.0.0-preview.18
+  com.unity.ui.builder@1.0.0-preview.18
