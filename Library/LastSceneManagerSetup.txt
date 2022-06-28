@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/LowPolyAlienWorld/Scenes/Procedural Generation.unity
+- path: Assets/LowPolyAlienWorld/PlanetView/Scenes/Procedural Generation.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

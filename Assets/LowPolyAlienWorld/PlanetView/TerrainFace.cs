@@ -38,16 +38,16 @@ public class TerrainFace : MonoBehaviour
                 Vector3 pointOnUnitSphere = pointOnUnitCube.normalized;
                 vertices[i] = shapeGenerator.CalculatePointOnPlanet(pointOnUnitSphere);
 
-                // Creating triangles
+                // Create triangles as long as vertices is not along right or bottom axis
                 if (x != resolution - 1 && y != resolution - 1)
                 {
                     // First triangle
-                    triangles[triIndex] = i;
+                    triangles[triIndex] = i; // 1st vertex of the triangle
                     triangles[triIndex + 1] = i + resolution + 1;
                     triangles[triIndex + 2] = i + resolution;
 
                     // Second triangle
-                    triangles[triIndex + 3] = i;
+                    triangles[triIndex + 3] = i; // 1st vertex of the second triangle
                     triangles[triIndex + 4] = i + 1;
                     triangles[triIndex + 5] = i + resolution + 1;
                     triIndex += 6;
