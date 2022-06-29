@@ -11,4 +11,5 @@ public class NoiseSettings {
     public float roughness = 2;
     public float persistence = .5f; // halve amplitude with each layer
     public Vector3 centre;
+    public float minValue;
 }
