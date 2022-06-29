@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637919818570000000
+      ticks: 637921094950000000
     m_Hash: 301776972
   m_LockFileStatus:
     m_FilePath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637919818590000000
+      ticks: 637921094950000000
     m_Hash: 2235280105
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
