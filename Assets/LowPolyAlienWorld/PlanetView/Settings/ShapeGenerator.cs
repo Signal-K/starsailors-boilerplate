@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ShapeGenerator {
     ShapeSettings settings;
-    NoiseFilter[] noiseFilters;
+    INoiseFilter[] noiseFilters;
 
     public ShapeGenerator(ShapeSettings settings) {
         this.settings = settings;
-        noiseFilters = new NoiseFilter[settings.noiseLayers.Length];
+        noiseFilters = new INoiseFilter[settings.noiseLayers.Length];
         for (int i = 0; i < noiseFilters.Length; i++) {
-            noiseFilters[i] = new NoiseFilter(settings.noiseLayers[i].noiseSettings);
+            noiseFilters[i] = NoiseFilterFactory.CreateNoiseFilter(settings.noiseLayers[i].noiseSettings);
         }
     }
 
@@ -20,13 +20,15 @@ public class ShapeGenerator {
 
         if (noiseFilters.Length > 0) {
             firstLayerValue = noiseFilters[0].Evaluate(pointOnUnitSphere);
-            if (settings.noiseLayers[0].enabled) {
+            if (settings.noiseLayers[0].enabled)
+            {
                 elevation = firstLayerValue;
             }
         }
 
         for (int i = 1; i < noiseFilters.Length; i++) {
-            if (settings.noiseLayers[i].enabled) {
+            if (settings.noiseLayers[i].enabled)
+            {
                 float mask = (settings.noiseLayers[i].useFirstLayerAsMask) ? firstLayerValue : 1;
                 elevation += noiseFilters[i].Evaluate(pointOnUnitSphere) * mask;
             }

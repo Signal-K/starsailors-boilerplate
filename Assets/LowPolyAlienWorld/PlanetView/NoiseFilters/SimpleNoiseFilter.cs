@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SimpleNoiseFilter : INoiseFilter {
+    //NoiseSettings.SimpleNoiseSettings settings;
     NoiseSettings settings;
     Noise noise = new Noise();
 
+    //public SimpleNoiseFilter(NoiseSettings.SimpleNoiseSettings settings) {
     public SimpleNoiseFilter(NoiseSettings settings) {
         this.settings = settings;
     }
