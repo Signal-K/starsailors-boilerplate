@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Planet : MonoBehaviour
-{
+public class Planet : MonoBehaviour {
     [Range(2, 256)]
     public int resolution = 10;
     public bool autoUpdate = true;
+    public enum FaceRenderMask { All, Top, Bottom, Left, Right, Front, Back }; // Only render 1 face at a time -> speed up when testing with high resolutions
+    public FaceRenderMask faceRenderMask;
 
     public ShapeSettings shapeSettings;
     public ColourSettings colourSettings;
@@ -22,17 +23,14 @@ public class Planet : MonoBehaviour
     MeshFilter[] meshFilters;
     TerrainFace[] terrainFaces;
 
-    private void OnValidate()
-    {
+    private void OnValidate() {
         GeneratePlanet();
     }
 
-    async void Initialize() // Initialising the mesh filters
-    {
+    async void Initialize() { // Initialising the mesh filters
         shapeGenerator = new ShapeGenerator(shapeSettings);
 
-        if (meshFilters == null || meshFilters.Length == 0)
-        {
+        if (meshFilters == null || meshFilters.Length == 0) {
             meshFilters = new MeshFilter[6];
         }
 
@@ -40,10 +38,8 @@ public class Planet : MonoBehaviour
 
         Vector3[] directions = { Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back };
 
-        for (int i = 0; i < 6; i++)
-        {
-            if (meshFilters[i] == null)
-            {
+        for (int i = 0; i < 6; i++) {
+            if (meshFilters[i] == null) {
                 GameObject meshObj = new GameObject("mesh");
                 meshObj.transform.parent = transform;
 
@@ -53,39 +49,36 @@ public class Planet : MonoBehaviour
             }
 
             terrainFaces[i] = new TerrainFace(shapeGenerator, meshFilters[i].sharedMesh, resolution, directions[i]);
-
+            bool renderFace = faceRenderMask == FaceRenderMask.All || (int)faceRenderMask - 1 == i;
+            meshFilters[i].gameObject.SetActive(renderFace);
         }
     }
 
-    public void GeneratePlanet()
-    {
+    public void GeneratePlanet() {
         Initialize();
         GenerateMesh();
         GenerateColors();
     }
 
-    public void OnShapeSettingsUpdated()
-    {
+    public void OnShapeSettingsUpdated() {
         Initialize();
         GenerateMesh();
     }
 
-    public void OnColourSettingsUpdated()
-    {
+    public void OnColourSettingsUpdated() {
         Initialize();
         GenerateColors();
     }
 
-    void GenerateMesh()
-    {
-        foreach (TerrainFace face in terrainFaces)
-        {
-            face.ConstructMesh();
+    void GenerateMesh() {
+        for (int i = 0; i < 6; i++) {
+            if (meshFilters[i].gameObject.activeSelf) {
+                terrainFaces[i].ConstructMesh();
+            }
         }
     }
 
-    void GenerateColors()
-    {
+    void GenerateColors() {
         foreach (MeshFilter m in meshFilters)
         {
             m.GetComponent<MeshRenderer>().sharedMaterial.color = colourSettings.planetColour;

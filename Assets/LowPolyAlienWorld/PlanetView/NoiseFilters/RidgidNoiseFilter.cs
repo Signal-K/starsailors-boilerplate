@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RidgidNoiseFilter : INoiseFilter {
-    //NoiseSettings.RidgidNoiseSettings settings;
-    NoiseSettings settings;
+    NoiseSettings.RidgidNoiseSettings settings;
     Noise noise = new Noise();
 
-    //public RidgidNoiseFilter(NoiseSettings.RidgidNoiseSettings settings) {
-    public RidgidNoiseFilter(NoiseSettings settings) {
+    public RidgidNoiseFilter(NoiseSettings.RidgidNoiseSettings settings) {
         this.settings = settings;
     }
 
