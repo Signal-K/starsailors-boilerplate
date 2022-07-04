@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu()]
-
 public class ColourSettings : ScriptableObject {
-    public Color planetColour;
+    public Gradient gradient;
+    public Material planetMaterial;
 }
