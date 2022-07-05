@@ -48,7 +48,7 @@ MonoBehaviour:
         centre: {x: 0, y: 0, z: 0}
         minValue: 0
       ridgidNoiseSettings:
-        strength: 1.46
+        strength: 1.35
         numLayers: 4
         baseRoughness: 2.59
         roughness: 2.83
