@@ -1000,10 +1000,12 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.3
     - 5.0.4
+    - 5.0.6
     compatible:
     - 5.0.3
     - 5.0.4
-    verified: 5.0.4
+    - 5.0.6
+    verified: 5.0.6
   dependencies:
   - name: com.unity.settings-manager
     version: 1.0.3
@@ -2235,8 +2237,28 @@ m_ResolvedPackages:
   status: 4
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 1.2.0-pre.0
+    - 1.2.0-pre.1
+    - 1.2.0-pre.2
+    - 1.2.0-pre.3
+    - 1.2.0-pre.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    compatible:
+    - 1.2.0-pre.0
+    - 1.2.0-pre.1
+    - 1.2.0-pre.2
+    - 1.2.0-pre.3
+    - 1.2.0-pre.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     verified: 
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
@@ -5403,6 +5425,7 @@ m_ResolvedPackages:
     - 5.1.1
     - 5.2.0
     - 5.2.1
+    - 5.2.3
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
