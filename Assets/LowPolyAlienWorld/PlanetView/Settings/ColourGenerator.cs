@@ -10,7 +10,7 @@ public class ColourGenerator {
     public void UpdateSettings(ColourSettings settings) {
         this.settings = settings;
         if (texture == null) {
-            texture = new Texture2D(textureResolution, 1);
+            texture = new Texture2D(textureResolution, settings.biomeColourSettings.biomes.Length);
         }
     }
 
