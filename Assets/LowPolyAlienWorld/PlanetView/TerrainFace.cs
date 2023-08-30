@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TerrainFace : MonoBehaviour
-{
+public class TerrainFace {
     ShapeGenerator shapeGenerator;
     Mesh mesh;
     int resolution;
@@ -11,8 +10,7 @@ public class TerrainFace : MonoBehaviour
     Vector3 axisA;
     Vector3 axisB;
 
-    public TerrainFace(ShapeGenerator shapeGenerator, Mesh mesh, int resolution, Vector3 localUp)
-    {
+    public TerrainFace(ShapeGenerator shapeGenerator, Mesh mesh, int resolution, Vector3 localUp) {
         this.shapeGenerator = shapeGenerator;
         this.mesh = mesh;
         this.resolution = resolution;
@@ -22,41 +20,53 @@ public class TerrainFace : MonoBehaviour
         axisB = Vector3.Cross(localUp, axisA);
     }
 
-    public async void ConstructMesh()
-    {
+    public void ConstructMesh() {
         Vector3[] vertices = new Vector3[resolution * resolution];
-        int[] triangles = new int[(resolution - 1) * (resolution - 1) * (3 * 2)];
+        int[] triangles = new int[(resolution - 1) * (resolution - 1) * 6];
         int triIndex = 0;
+        Vector2[] uv = (mesh.uv.Length == vertices.Length)?mesh.uv:new Vector2[vertices.Length];
 
-        for (int y = 0; y < resolution; y++)
-        {
-            for (int x = 0; x < resolution; x++)
-            {
+        for (int y = 0; y < resolution; y++) {
+            for (int x = 0; x < resolution; x++) {
                 int i = x + y * resolution;
-                Vector2 percent = new Vector2(x, y) / (resolution - 1); // When x = 0, y = 0, percent = (0,0)
-                Vector3 pointOnUnitCube = localUp + (percent.x - 0.5f) * 2 * axisA + (percent.y - 0.5f) * 2 * axisB;
+                Vector2 percent = new Vector2(x, y) / (resolution - 1);
+                Vector3 pointOnUnitCube = localUp + (percent.x - .5f) * 2 * axisA + (percent.y - .5f) * 2 * axisB;
                 Vector3 pointOnUnitSphere = pointOnUnitCube.normalized;
                 vertices[i] = shapeGenerator.CalculatePointOnPlanet(pointOnUnitSphere);
 
-                // Create triangles as long as vertices is not along right or bottom axis
-                if (x != resolution - 1 && y != resolution - 1)
-                {
-                    // First triangle
-                    triangles[triIndex] = i; // 1st vertex of the triangle
+                if (x != resolution - 1 && y != resolution - 1) {
+                    triangles[triIndex] = i;
                     triangles[triIndex + 1] = i + resolution + 1;
                     triangles[triIndex + 2] = i + resolution;
 
-                    // Second triangle
-                    triangles[triIndex + 3] = i; // 1st vertex of the second triangle
+                    triangles[triIndex + 3] = i;
                     triangles[triIndex + 4] = i + 1;
                     triangles[triIndex + 5] = i + resolution + 1;
                     triIndex += 6;
                 }
             }
-            mesh.Clear(); // Temporarily clear all data from the mesh
-            mesh.vertices = vertices;
-            mesh.triangles = triangles;
-            mesh.RecalculateNormals();
+        }
+        mesh.Clear();
+        mesh.vertices = vertices;
+        mesh.triangles = triangles;
+        mesh.RecalculateNormals();
+        mesh.uv = uv;
+    }
+
+    public void UpdateUVs(ColourGenerator colourGenerator) {
+        Vector2[] uv = new Vector2[resolution * resolution];
+        
+        for (int y = 0; y < resolution; y++) {
+            for (int x = 0; x < resolution; x++) {
+                int i = x + y * resolution;
+                Vector2 percent = new Vector2(x, y) / (resolution - 1);
+                Vector3 pointOnUnitCube = localUp + (percent.x - .5f) * 2 * axisA + (percent.y - .5f) * 2 * axisB;
+                Vector3 pointOnUnitSphere = pointOnUnitCube.normalized;
+
+                uv[i] = new Vector2(colourGenerator.BiomePercentFromPoint(pointOnUnitSphere), 0);
+            }
+
+            mesh.uv = uv;
         }
     }
 }

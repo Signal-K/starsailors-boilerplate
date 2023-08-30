@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Packages/manifest.json
+    m_FilePath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637931490070000000
-    m_Hash: 2934568860
+      ticks: 638317193600000000
+    m_Hash: 2139452923
   m_LockFileStatus:
-    m_FilePath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Packages/packages-lock.json
+    m_FilePath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637931490280000000
-    m_Hash: 1609282397
+      ticks: 638317193750000000
+    m_Hash: 2901037161
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Packages
-m_EditorVersion: 2021.3.4f1 (cb45f9cae8b7)
+m_ProjectPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Packages
+m_EditorVersion: 2022.3.5f1 (9674261d40ee)
 m_ResolvedPackages:
 - packageId: com.guciodevs.simple-min-max-slider@https://github.com/GucioDevs/SimpleMinMaxSlider.git#upm
   testable: 0
   isDirectDependency: 1
   version: 1.1.2
   source: 5
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.guciodevs.simple-min-max-slider@46ff35d229
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.guciodevs.simple-min-max-slider@46ff35d229
   assetPath: Packages/com.guciodevs.simple-min-max-slider
   name: com.guciodevs.simple-min-max-slider
   displayName: Simple MinMax Slider
@@ -38,12 +38,13 @@ m_ResolvedPackages:
   category: 
   type: 
   description: Handy small package that adds a simple MinMaxSlider attribute.
-  status: 4
+  status: 0
   errors: []
   versions:
     all: []
     compatible: []
-    verified: 
+    recommended: 
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -54,6 +55,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -67,12 +69,73 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.lootlocker.lootlockersdk@https://github.com/LootLocker/unity-sdk.git
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.8
+  source: 5
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.lootlocker.lootlockersdk@66b0f6b734
+  assetPath: Packages/com.lootlocker.lootlockersdk
+  name: com.lootlocker.lootlockersdk
+  displayName: LootLocker
+  author:
+    name: LootLocker
+    email: 
+    url: 
+  category: 
+  type: tool
+  description: LootLocker SDK
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.microsoft.maps.unity@0.11.2
   testable: 0
   isDirectDependency: 1
   version: 0.11.2
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.microsoft.maps.unity@0.11.2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.microsoft.maps.unity@0.11.2
   assetPath: Packages/com.microsoft.maps.unity
   name: com.microsoft.maps.unity
   displayName: Maps SDK, a Microsoft Garage Project
@@ -85,7 +148,7 @@ m_ResolvedPackages:
   description: This SDK provides a component to visualize a 3D map in Unity, streaming
     and rending 3D terrain data with world-wide coverage. Select cities are rendered
     at a very high level of detail. Data is provided by Bing Maps.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -110,7 +173,8 @@ m_ResolvedPackages:
     - 0.11.0
     - 0.11.1
     - 0.11.2
-    verified: 
+    recommended: 
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -120,13 +184,14 @@ m_ResolvedPackages:
   - ar
   - xr
   registry:
-    id: scoped:Maps SDK for Unity
+    id: scoped:project:Maps SDK for Unity
     name: Maps SDK for Unity
     url: https://unity.virtualearth.net/npm/registry
     scopes:
     - com.microsoft.maps
     isDefault: 0
     capabilities: 0
+    configSource: 4
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637891972890000000
@@ -140,35 +205,43 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.lootlocker.lootlockersdk@https://github.com/LootLocker/unity-sdk.git
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.1.8
-  source: 5
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.lootlocker.lootlockersdk@66b0f6b734
-  assetPath: Packages/com.lootlocker.lootlockersdk
-  name: com.lootlocker.lootlockersdk
-  displayName: LootLocker
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
   author:
-    name: LootLocker
+    name: 
     email: 
     url: 
-  category: 
-  type: tool
-  description: LootLocker SDK
-  status: 4
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
   errors: []
   versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies:
-  - name: com.unity.nuget.newtonsoft-json
-    version: 2.0.0
-  resolvedDependencies:
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  keywords: []
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
   registry:
     id: main
     name: 
@@ -176,6 +249,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -187,14 +261,87 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
-- packageId: com.unity.cinemachine@2.8.6
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ai.navigation@1.1.4
   testable: 0
   isDirectDependency: 1
-  version: 2.8.6
+  version: 1.1.4
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.cinemachine@2.8.6
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.ai.navigation@1.1.4
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 2.0.0-pre.3
+    compatible:
+    - 1.1.4
+    recommended: 1.1.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638224218100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
+    path: 
+  unityLifecycle:
+    version: 1.1.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.cinemachine@2.9.5
+  testable: 0
+  isDirectDependency: 1
+  version: 2.9.5
+  source: 1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.cinemachine@2.9.5
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -203,13 +350,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: cinematography
-  type: 
+  type: asset
   description: "Smart camera tools for passionate creators. \n\nNew starting from
     2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
     menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
     of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
     this version from the Package Manager."
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -253,6 +400,7 @@ m_ResolvedPackages:
     - 2.6.11
     - 2.6.14
     - 2.6.15
+    - 2.6.17
     - 2.7.1
     - 2.7.2
     - 2.7.3
@@ -269,16 +417,43 @@ m_ResolvedPackages:
     - 2.8.3
     - 2.8.4
     - 2.8.6
+    - 2.8.9
     - 2.9.0-pre.1
     - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    - 2.9.7
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
     compatible:
-    - 2.8.4
-    - 2.8.6
-    - 2.9.0-pre.1
-    - 2.9.0-pre.6
-    verified: 2.8.6
-  dependencies: []
-  resolvedDependencies: []
+    - 2.9.5
+    - 2.9.7
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    recommended: 2.9.7
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.31
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords:
   - camera
   - follow
@@ -309,267 +484,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637891007790000000
-  documentationUrl: 
+  datePublishedTicks: 638102365180000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 5e26d3cd08865a98219c0d2d3a8cc689018dd75b
+    revision: 4b4405b9505ecfa1cb2d2b03df8f3309c12f3b0d
     path: 
   unityLifecycle:
-    version: 2.8.4
+    version: 2.9.5
     nextVersion: 
-- packageId: com.unity.2d.sprite@1.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.sprite@1.0.0
-  assetPath: Packages/com.unity.2d.sprite
-  name: com.unity.2d.sprite
-  displayName: 2D Sprite
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
-    like pivot, borders and Physics shape
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - 2d
-  - sprite
-  - sprite editor window
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-- packageId: com.unity.feature.2d@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.feature.2d@1.0.0
-  assetPath: Packages/com.unity.feature.2d
-  name: com.unity.feature.2d
-  displayName: 2D
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: feature
-  description: Import images including multi-layered Photoshop files as Sprites and
-    configure them to create 2D games. Create freeform, tile-based and spline-based
-    2D game worlds. Create frame-by-frame and bone-based animated characters. Integrated
-    with 2D physics to support simulations with colliders and joints. Supports the
-    needs of a range of 2D art styles, including pixel art.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies:
-  - name: com.unity.2d.animation
-    version: default
-  - name: com.unity.2d.pixel-perfect
-    version: default
-  - name: com.unity.2d.psdimporter
-    version: default
-  - name: com.unity.2d.sprite
-    version: default
-  - name: com.unity.2d.spriteshape
-    version: default
-  - name: com.unity.2d.tilemap
-    version: default
-  - name: com.unity.2d.tilemap.extras
-    version: default
-  resolvedDependencies:
-  - name: com.unity.2d.animation
-    version: 7.0.5
-  - name: com.unity.2d.common
-    version: 6.0.3
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.6.5
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.2d.pixel-perfect
-    version: 5.0.1
-  - name: com.unity.2d.psdimporter
-    version: 6.0.3
-  - name: com.unity.2d.spriteshape
-    version: 7.0.4
-  - name: com.unity.2d.path
-    version: 5.0.2
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
-  - name: com.unity.2d.tilemap.extras
-    version: 2.2.2
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-- packageId: com.unity.feature.development@1.0.1
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.1
-  source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.feature.development@1.0.1
-  assetPath: Packages/com.unity.feature.development
-  name: com.unity.feature.development
-  displayName: Engineering
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: feature
-  description: "Optimize your development experience in Unity with the Dev Tools
-    feature set. Enable support for multiple integrated development environments
-    (IDE) for editing your Unity code. Get access to development tools to help you
-    test and analyze your project\u2019s performance."
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    compatible:
-    - 1.0.1
-    verified: 1.0.1
-  dependencies:
-  - name: com.unity.ide.visualstudio
-    version: default
-  - name: com.unity.ide.rider
-    version: default
-  - name: com.unity.ide.vscode
-    version: default
-  - name: com.unity.editorcoroutines
-    version: default
-  - name: com.unity.performance.profile-analyzer
-    version: default
-  - name: com.unity.test-framework
-    version: default
-  - name: com.unity.testtools.codecoverage
-    version: default
-  resolvedDependencies:
-  - name: com.unity.ide.visualstudio
-    version: 2.0.15
-  - name: com.unity.test-framework
-    version: 1.1.31
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ide.rider
-    version: 3.0.14
-  - name: com.unity.ide.vscode
-    version: 1.2.5
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.performance.profile-analyzer
-    version: 1.1.1
-  - name: com.unity.testtools.codecoverage
-    version: 1.0.1
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.1
-    nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.17
-  testable: 0
-  isDirectDependency: 1
-  version: 1.15.17
+  version: 2.0.5
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.collab-proxy@1.15.17
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.collab-proxy@2.0.5
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -578,12 +517,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
-  status: 4
+  type: assets
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
+  status: 0
   errors: []
   versions:
     all:
@@ -636,6 +574,9 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -643,37 +584,27 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
     compatible:
-    - 1.15.17
-    - 1.15.18
-    - 1.17.0
-    - 1.17.1
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
+    - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.18
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.4.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    - 2.1.0
+    recommended: 2.0.7
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -681,6 +612,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -695,25 +627,242 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637871149130000000
-  documentationUrl: 
+  datePublishedTicks: 638218079810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: fd95d00c5a7961beec85ee190181439d53fb0dba
+    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
     path: 
   unityLifecycle:
-    version: 1.15.17
+    version: 2.0.5
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.14
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.feature.2d@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 3.0.14
+  version: 2.0.0
+  source: 2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.feature.2d@2.0.0
+  assetPath: Packages/com.unity.feature.2d
+  name: com.unity.feature.2d
+  displayName: 2D
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: feature
+  description: Import images including multi-layered Photoshop files as Sprites and
+    configure them to create 2D games. Create freeform, tile-based and spline-based
+    2D game worlds. Create frame-by-frame and bone-based animated characters. Integrated
+    with 2D physics to support simulations with colliders and joints. Supports the
+    needs of a range of 2D art styles, including pixel art.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0
+    compatible:
+    - 2.0.0
+    recommended: 2.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.animation
+    version: default
+  - name: com.unity.2d.pixel-perfect
+    version: default
+  - name: com.unity.2d.psdimporter
+    version: default
+  - name: com.unity.2d.sprite
+    version: default
+  - name: com.unity.2d.spriteshape
+    version: default
+  - name: com.unity.2d.tilemap
+    version: default
+  - name: com.unity.2d.tilemap.extras
+    version: default
+  - name: com.unity.2d.aseprite
+    version: default
+  resolvedDependencies:
+  - name: com.unity.2d.animation
+    version: 9.0.3
+  - name: com.unity.2d.common
+    version: 8.0.1
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.7
+  - name: com.unity.collections
+    version: 1.2.4
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.2d.pixel-perfect
+    version: 5.0.3
+  - name: com.unity.2d.psdimporter
+    version: 8.0.2
+  - name: com.unity.2d.spriteshape
+    version: 9.0.2
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.2d.tilemap.extras
+    version: 3.1.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.2d.aseprite
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.feature.development@1.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.feature.development@1.0.1
+  assetPath: Packages/com.unity.feature.development
+  name: com.unity.feature.development
+  displayName: Engineering
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: feature
+  description: "Optimize your development experience in Unity with the Dev Tools
+    feature set. Enable support for multiple integrated development environments
+    (IDE) for editing your Unity code. Get access to development tools to help you
+    test and analyze your project\u2019s performance."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.ide.visualstudio
+    version: default
+  - name: com.unity.ide.rider
+    version: default
+  - name: com.unity.ide.vscode
+    version: default
+  - name: com.unity.editorcoroutines
+    version: default
+  - name: com.unity.performance.profile-analyzer
+    version: default
+  - name: com.unity.test-framework
+    version: default
+  - name: com.unity.testtools.codecoverage
+    version: default
+  resolvedDependencies:
+  - name: com.unity.ide.visualstudio
+    version: 2.0.18
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ide.rider
+    version: 3.0.24
+  - name: com.unity.ide.vscode
+    version: 1.2.5
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.performance.profile-analyzer
+    version: 1.2.2
+  - name: com.unity.testtools.codecoverage
+    version: 1.2.4
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.rider@3.0.24
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.24
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.ide.rider@3.0.14
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -722,11 +871,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -761,10 +910,19 @@ m_ResolvedPackages:
     - 3.0.13
     - 3.0.14
     - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
     compatible:
-    - 3.0.14
-    - 3.0.15
-    verified: 3.0.15
+    - 3.0.24
+    - 3.0.25
+    recommended: 3.0.25
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -779,25 +937,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637861245770000000
-  documentationUrl: 
+  datePublishedTicks: 638221653400000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: e6bfc84a08a0876a2c20ec2ee0883b5ece331dfd
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.14
+    version: 3.0.24
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.15
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.15
+  version: 2.0.18
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.ide.visualstudio@2.0.15
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -806,11 +970,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -833,16 +997,22 @@ m_ResolvedPackages:
     - 2.0.14
     - 2.0.15
     - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
     compatible:
-    - 2.0.15
-    - 2.0.16
-    verified: 2.0.16
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
+    recommended: 2.0.21
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -857,25 +1027,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637841884840000000
-  documentationUrl: 
+  datePublishedTicks: 638173205920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: ca1ece42f5a2c5484ba15a15bb975ccc1f6a1a3c
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.15
+    version: 2.0.18
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.ide.vscode@1.2.5
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -884,11 +1060,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -907,7 +1083,8 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    verified: 1.2.5
+    recommended: 1.2.5
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -918,6 +1095,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
@@ -931,12 +1109,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.probuilder@5.0.4
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.probuilder@5.1.0
   testable: 0
   isDirectDependency: 1
-  version: 5.0.4
+  version: 5.1.0
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.probuilder@5.0.4
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.probuilder@5.1.0
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -945,7 +1128,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
     for in-scene level design, prototyping, collision meshes, all with on-the-fly
     play-testing.
@@ -959,7 +1142,7 @@ m_ResolvedPackages:
     If you are using
     URP/HDRP, be careful to also import the corresponding sample project in the section
     below to get the proper materials.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1001,11 +1184,14 @@ m_ResolvedPackages:
     - 5.0.3
     - 5.0.4
     - 5.0.6
+    - 5.0.7
+    - 5.1.0
+    - 5.1.1
     compatible:
-    - 5.0.3
-    - 5.0.4
-    - 5.0.6
-    verified: 5.0.6
+    - 5.1.0
+    - 5.1.1
+    recommended: 5.1.1
+    deprecated: []
   dependencies:
   - name: com.unity.settings-manager
     version: 1.0.3
@@ -1015,7 +1201,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -1048,25 +1234,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637798446010000000
-  documentationUrl: 
+  datePublishedTicks: 638222427550000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@5.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.probuilder.git
-    revision: 22982e248cc358e0d09dddd839f6d84cf33a8cb6
+    revision: c6ea6d4928ae8881d73a4177d18a79e97a2b9955
     path: 
   unityLifecycle:
-    version: 5.0.3
+    version: 5.1.0
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.core@14.0.8
   testable: 0
   isDirectDependency: 1
-  version: 12.1.7
+  version: 14.0.8
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.render-pipelines.core@12.1.7
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.render-pipelines.core@14.0.8
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -1083,7 +1275,7 @@ m_ResolvedPackages:
     Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
     a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
     save you time.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1183,14 +1375,19 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1203,6 +1400,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
@@ -1213,6 +1412,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -1224,14 +1424,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.render-pipelines.high-definition@12.1.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.high-definition@14.0.8
   testable: 0
   isDirectDependency: 1
-  version: 12.1.7
+  version: 14.0.8
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.7
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.render-pipelines.high-definition@14.0.8
   assetPath: Packages/com.unity.render-pipelines.high-definition
   name: com.unity.render-pipelines.high-definition
   displayName: High Definition RP
@@ -1247,7 +1452,7 @@ m_ResolvedPackages:
     and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture
     and gives you the tools you need to create games, technical demos, animations,
     and more to a high graphical standard.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1346,15 +1551,18 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.0
+    version: 1.8.4
   - name: com.unity.modules.video
     version: 1.0.0
   - name: com.unity.modules.animation
@@ -1364,18 +1572,18 @@ m_ResolvedPackages:
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.visualeffectgraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.render-pipelines.high-definition-config
-    version: 12.1.7
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.7
   - name: com.unity.modules.video
     version: 1.0.0
   - name: com.unity.modules.audio
@@ -1391,7 +1599,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -1401,13 +1609,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   - name: com.unity.visualeffectgraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.render-pipelines.high-definition-config
-    version: 12.1.7
+    version: 14.0.8
   keywords:
   - graphics
   - performance
@@ -1421,6 +1629,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -1432,14 +1641,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.universal@14.0.8
   testable: 0
   isDirectDependency: 1
-  version: 12.1.7
+  version: 14.0.8
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.render-pipelines.universal@12.1.7
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.render-pipelines.universal@14.0.8
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1453,7 +1667,7 @@ m_ResolvedPackages:
     Pipeline, made by Unity. URP provides artist-friendly workflows that let you
     quickly and easily create optimized graphics across a range of platforms, from
     mobile to high-end consoles and PCs.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1500,26 +1714,29 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
-    version: 1.5.0
+    version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.7
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1528,12 +1745,14 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords:
   - graphics
   - performance
@@ -1548,6 +1767,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -1559,14 +1779,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.test-framework@1.1.31
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1575,9 +1800,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1614,15 +1839,37 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    recommended: 1.1.33
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1647,25 +1894,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
-    version: 1.1.31
+    version: 1.1.33
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.textmeshpro@3.0.6
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1674,7 +1927,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1695,7 +1948,7 @@ m_ResolvedPackages:
     Great performance. Since the geometry created by TextMeshPro
     uses two triangles per character just like Unity''s text components, this improved
     visual quality and flexibility comes at no additional performance cost.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1782,13 +2035,23 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
-    verified: 3.0.6
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    recommended: 3.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1812,6 +2075,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
@@ -1825,112 +2089,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.2
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.timeline@1.7.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.2
+  version: 1.7.5
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.2
-  assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
-  name: com.unity.toolchain.win-x86_64-linux-x86_64
-  displayName: Toolchain Win Linux x64
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Cross-compilation toolchain to build player target Linux x86_64 on
-    host Windows x86_64
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.4-preview
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
-    - 0.1.20-preview
-    - 0.1.21-preview
-    - 1.0.0
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    compatible:
-    - 0.1.4-preview
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
-    - 0.1.20-preview
-    - 0.1.21-preview
-    - 1.0.0
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    verified: 
-  dependencies:
-  - name: com.unity.sysroot
-    version: 2.0.3
-  - name: com.unity.sysroot.linux-x86_64
-    version: 2.0.2
-  resolvedDependencies:
-  - name: com.unity.sysroot
-    version: 2.0.3
-  - name: com.unity.sysroot.linux-x86_64
-    version: 2.0.2
-  keywords:
-  - toolchain
-  - windows
-  - linux
-  - cross-compilation
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637902311680000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 66ed41bba76e1f66c4e578e9bad86d33dff8b82b
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.timeline@1.6.4
-  testable: 0
-  isDirectDependency: 1
-  version: 1.6.4
-  source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.timeline@1.6.4
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.timeline@1.7.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1939,10 +2108,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2014,17 +2183,31 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.7.5
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
     compatible:
-    - 1.6.4
-    - 1.7.0-pre.1
-    - 1.7.0-pre.2
-    - 1.7.0
-    - 1.7.1
-    verified: 1.6.4
+    - 1.7.5
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    recommended: 1.7.5
+    deprecated: []
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -2056,25 +2239,124 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637789039180000000
-  documentationUrl: 
+  datePublishedTicks: 638229649600000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d7e1eb6805737974459309b7d6e7db58635dd167
+    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
     path: 
   unityLifecycle:
-    version: 1.6.4
+    version: 1.7.5
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.4
+  source: 1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.4
+  assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
+  name: com.unity.toolchain.win-x86_64-linux-x86_64
+  displayName: Toolchain Win Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Cross-compilation toolchain to build player target Linux x86_64 on
+    host Windows x86_64
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.4-preview
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 0.1.20-preview
+    - 0.1.21-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    compatible:
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.5
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.4
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.5
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.4
+  keywords:
+  - toolchain
+  - windows
+  - linux
+  - cross-compilation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638067882890000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.win-x86_64-linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 06af5d019fed618daef07b5db278be147aed574b
+    path: 
+  unityLifecycle:
+    version: 2.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.ugui@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2088,14 +2370,17 @@ m_ResolvedPackages:
     and applications. It is a GameObject-based UI system that uses Components and
     the Game View to arrange, position, and style user interfaces. \u200B You cannot
     use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2118,6 +2403,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2131,12 +2417,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.visualscripting@1.7.8
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2145,7 +2436,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -2158,7 +2449,7 @@ m_ResolvedPackages:
 
     Visual scripting is compatible with third-party
     APIs, including most packages, assets and custom libraries.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2178,9 +2469,16 @@ m_ResolvedPackages:
     - 1.7.7
     - 1.7.8
     - 1.8.0-pre.1
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
     compatible:
-    - 1.7.8
-    verified: 1.7.8
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    recommended: 1.8.0
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -2203,25 +2501,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: io.moralis.web3-unity-sdk@https://github.com/MoralisWeb3/web3-unity-sdk.git
   testable: 0
   isDirectDependency: 1
   version: 1.2.3
   source: 5
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/io.moralis.web3-unity-sdk@153fe64d55
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/io.moralis.web3-unity-sdk@153fe64d55
   assetPath: Packages/io.moralis.web3-unity-sdk
   name: io.moralis.web3-unity-sdk
   displayName: Moralis Web3 Unity SDK
@@ -2234,7 +2538,7 @@ m_ResolvedPackages:
   description: Moralis provides a single workflow for building high performance dapps.
     Fully compatible with your favorite web3 tools and services. This SDK brings
     the power of Moralis to your Unity projects.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2248,6 +2552,13 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.8
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
     compatible:
     - 1.2.0-pre.0
     - 1.2.0-pre.1
@@ -2259,13 +2570,21 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
-    verified: 
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.8
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
+    recommended: 
+    deprecated: []
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   resolvedDependencies:
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   keywords:
   - Moralis
   - Web3
@@ -2283,13 +2602,14 @@ m_ResolvedPackages:
   - ERC-721
   - ERC-1155
   registry:
-    id: scoped:npmjs
+    id: scoped:project:npmjs
     name: npmjs
     url: https://registry.npmjs.org
     scopes:
     - io.moralis
     isDefault: 0
     capabilities: 0
+    configSource: 4
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2303,12 +2623,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.ai@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2320,14 +2645,15 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2338,6 +2664,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2351,12 +2678,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2367,14 +2699,15 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2385,6 +2718,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2398,12 +2732,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.animation@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2415,14 +2754,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2433,6 +2773,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2446,12 +2787,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2463,14 +2809,15 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2481,6 +2828,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2494,12 +2842,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.audio@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2511,14 +2864,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2529,6 +2883,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2542,12 +2897,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.cloth@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2559,14 +2919,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2581,6 +2942,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2594,12 +2956,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.director@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2611,14 +2978,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2637,6 +3005,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2650,12 +3019,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2668,14 +3042,15 @@ m_ResolvedPackages:
   description: 'The ImageConversion module implements the ImageConversion class which
     provides helper methods to convert images from and to PNG, JPEG or EXR formats.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2686,6 +3061,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2699,12 +3075,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.imgui@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2716,14 +3097,15 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2734,6 +3116,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2747,12 +3130,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2764,14 +3152,15 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2782,6 +3171,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2795,12 +3185,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2812,14 +3207,15 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2830,6 +3226,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2843,12 +3240,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.physics@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2860,14 +3262,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2878,6 +3281,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2891,12 +3295,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.physics2d@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2908,14 +3317,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2926,6 +3336,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2939,12 +3350,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.screencapture@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2956,14 +3372,15 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -2978,6 +3395,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2991,12 +3409,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.terrain@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3008,14 +3431,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3026,6 +3450,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3039,12 +3464,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3056,14 +3486,15 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3082,6 +3513,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3095,12 +3527,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.tilemap@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3111,14 +3548,15 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -3133,6 +3571,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3146,12 +3585,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.ui@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3163,14 +3607,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3181,6 +3626,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3194,12 +3640,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.uielements@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3211,14 +3662,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -3226,16 +3678,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -3245,6 +3693,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3258,12 +3707,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.umbra@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3275,14 +3729,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3293,6 +3748,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3306,12 +3762,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3323,14 +3784,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3349,6 +3811,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3362,12 +3825,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3379,14 +3847,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3397,6 +3866,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3410,12 +3880,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3427,14 +3902,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -3453,6 +3929,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3466,12 +3943,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3483,14 +3965,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3509,6 +3992,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3522,12 +4006,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3539,14 +4028,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3565,6 +4055,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3578,12 +4069,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3595,14 +4091,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3637,6 +4134,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3650,12 +4148,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.vehicles@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3667,14 +4170,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3689,6 +4193,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3702,12 +4207,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.video@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3719,14 +4229,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -3749,6 +4260,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3762,12 +4274,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.vr@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3779,14 +4296,15 @@ m_ResolvedPackages:
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3811,6 +4329,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3824,12 +4343,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.wind@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3841,14 +4365,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3859,6 +4384,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3872,12 +4398,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.xr@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3889,14 +4420,15 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3919,6 +4451,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3932,12 +4465,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.subsystems@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3949,14 +4487,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3971,6 +4510,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3984,71 +4524,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.modules.uielementsnative@1.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
-  assetPath: Packages/com.unity.modules.uielementsnative
-  name: com.unity.modules.uielementsnative
-  displayName: UIElements Native
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
+  version: 3.2.1
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4057,9 +4543,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
+    synced to version 13.0.2.
 
 
     This package is used for advanced json serialization
@@ -4068,7 +4554,7 @@ m_ResolvedPackages:
 
     To avoid assembly clashes, please use this
     package if you intend to use Newtonsoft Json.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4085,9 +4571,13 @@ m_ResolvedPackages:
     - 2.0.2
     - 3.0.1
     - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
     compatible:
-    - 3.0.2
-    verified: 3.0.2
+    - 3.2.1
+    recommended: 3.2.1
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -4098,25 +4588,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
+  datePublishedTicks: 638186318800000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
     path: 
   unityLifecycle:
-    version: 3.0.2
+    version: 3.2.1
     nextVersion: 
-- packageId: com.unity.sysroot@2.0.3
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.sysroot@2.0.5
   testable: 0
   isDirectDependency: 0
-  version: 2.0.3
+  version: 2.0.5
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.sysroot@2.0.3
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.sysroot@2.0.5
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -4125,10 +4621,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: This is the base sysroot package required by all sysroot and toolchain
     packages
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4148,24 +4644,16 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
     compatible:
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.12-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
-    - 1.0.0
-    - 2.0.0
-    - 2.0.2
-    - 2.0.3
-    verified: 
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    recommended: 2.0.7
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4179,25 +4667,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637902310480000000
-  documentationUrl: 
+  datePublishedTicks: 638067882470000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 66ed41bba76e1f66c4e578e9bad86d33dff8b82b
+    revision: 06af5d019fed618daef07b5db278be147aed574b
     path: 
   unityLifecycle:
-    version: 
+    version: 2.0.5
     nextVersion: 
-- packageId: com.unity.sysroot.linux-x86_64@2.0.2
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.sysroot.linux-x86_64@2.0.4
   testable: 0
   isDirectDependency: 0
-  version: 2.0.2
+  version: 2.0.4
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.sysroot.linux-x86_64@2.0.2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.sysroot.linux-x86_64@2.0.4
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -4206,9 +4700,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Sysroot used to build unity player for linux x86_64
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4226,28 +4720,22 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
     compatible:
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.12-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 1.0.0
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    verified: 
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.sysroot
-    version: 2.0.3
+    version: 2.0.5
   resolvedDependencies:
   - name: com.unity.sysroot
-    version: 2.0.3
+    version: 2.0.5
   keywords:
   - unity
   - linux
@@ -4259,25 +4747,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637902310650000000
-  documentationUrl: 
+  datePublishedTicks: 638067882520000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 66ed41bba76e1f66c4e578e9bad86d33dff8b82b
+    revision: 06af5d019fed618daef07b5db278be147aed574b
     path: 
   unityLifecycle:
-    version: 
+    version: 2.0.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.ext.nunit@1.0.6
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4286,10 +4780,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4301,11 +4795,16 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
-    verified: 1.0.6
+    - 2.0.4
+    - 2.0.5
+    recommended: 1.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4319,6 +4818,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
@@ -4332,12 +4832,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.mathematics@1.2.6
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4346,10 +4851,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4370,9 +4875,12 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.3.1
     compatible:
     - 1.2.6
-    verified: 1.2.6
+    - 1.3.1
+    recommended: 1.2.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4384,6 +4892,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
@@ -4397,12 +4906,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.burst@1.6.5
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.burst@1.8.7
   testable: 0
   isDirectDependency: 0
-  version: 1.6.5
+  version: 1.8.7
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.burst@1.6.5
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.burst@1.8.7
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4411,10 +4925,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4531,17 +5045,23 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
     compatible:
-    - 1.6.5
-    - 1.6.6
-    - 1.7.0-pre.1
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.8.0-pre.1
-    verified: 1.6.6
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
+    recommended: 1.8.9
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -4556,25 +5076,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637835629630000000
-  documentationUrl: 
+  datePublishedTicks: 638221796120000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 370080478647882de41c08e5ca4b4ec26032d9c7
+    url: git@github.cds.internal.unity3d.com:unity/burst
+    revision: 47aa5e222ec0a9e94b78af0bb63021cf722ad06b
     path: 
   unityLifecycle:
-    version: 1.6.5
+    version: 1.8.7
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.shadergraph@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 12.1.7
+  version: 14.0.8
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.shadergraph@12.1.7
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.shadergraph@14.0.8
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4589,7 +5115,7 @@ m_ResolvedPackages:
     Specific render pipelines can implement specific graph features. Currently, both
     the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
     Shader Graph.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4688,18 +5214,21 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4708,10 +5237,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords: []
   registry:
     id: main
@@ -4720,6 +5251,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -4731,14 +5263,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.visualeffectgraph@12.1.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.visualeffectgraph@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 12.1.7
+  version: 14.0.8
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.visualeffectgraph@12.1.7
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.visualeffectgraph@14.0.8
   assetPath: Packages/com.unity.visualeffectgraph
   name: com.unity.visualeffectgraph
   displayName: Visual Effect Graph
@@ -4753,7 +5290,7 @@ m_ResolvedPackages:
     the GPU. The Visual Effect Graph is production-ready for the High Definition
     Render Pipeline and runs on all platforms supported by it. Full support for the
     Universal Render Pipeline and compatible mobile devices is still in development.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4821,20 +5358,23 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4843,10 +5383,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords:
   - vfx
   - visualeffect
@@ -4860,6 +5402,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -4871,14 +5414,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.render-pipelines.high-definition-config@12.1.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.high-definition-config@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 12.1.7
+  version: 14.0.8
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.render-pipelines.high-definition-config@12.1.7
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.render-pipelines.high-definition-config@14.0.8
   assetPath: Packages/com.unity.render-pipelines.high-definition-config
   name: com.unity.render-pipelines.high-definition-config
   displayName: High Definition RP Config
@@ -4889,7 +5437,7 @@ m_ResolvedPackages:
   category: 
   type: 
   description: Configuration files for the High Definition Render Pipeline.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4936,16 +5484,19 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4953,6 +5504,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -4964,6 +5517,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -4975,14 +5529,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.3
+  version: 2.0.1
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.settings-manager@1.0.3
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4991,10 +5550,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5007,10 +5566,9 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     compatible:
-    - 1.0.3
-    - 2.0.0
     - 2.0.1
-    verified: 1.0.3
+    recommended: 2.0.1
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -5021,103 +5579,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
+  datePublishedTicks: 637744099390000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
     path: 
   unityLifecycle:
-    version: 1.0.3
+    version: 2.0.1
     nextVersion: 
-- packageId: com.unity.services.core@1.4.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.4.0
-  source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.services.core@1.4.0
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    compatible:
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    verified: 1.4.2
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637871962570000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 92e281deb97a96f7b32464b6874de73a17c140ff
-    path: 
-  unityLifecycle:
-    version: 1.4.0
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.editorcoroutines@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5126,11 +5612,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5143,7 +5629,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -5157,6 +5644,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
@@ -5170,12 +5658,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.performance.profile-analyzer@1.1.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.2.2
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.performance.profile-analyzer@1.1.1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -5184,13 +5677,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
     set of Profiler CPU data \n\u25AA Comparison of two multi-frame profile scans
     \n\n"
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5207,9 +5700,11 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.0
     - 1.1.1
+    - 1.2.2
     compatible:
-    - 1.1.1
-    verified: 1.1.1
+    - 1.2.2
+    recommended: 1.2.2
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -5220,25 +5715,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637705021060000000
-  documentationUrl: 
+  datePublishedTicks: 638108624620000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 6dcda6aee96901e98a4f01b85589054b9274ba74
+    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.2.2
     nextVersion: 
-- packageId: com.unity.testtools.codecoverage@1.0.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.testtools.codecoverage@1.2.4
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  version: 1.2.4
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5247,12 +5748,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
     when there are no automated tests in the project.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5281,18 +5782,15 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     compatible:
-    - 1.0.1
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0-exp.1
-    - 1.2.0-exp.2
-    - 1.2.0-exp.3
-    - 1.2.0-exp.4
-    - 1.2.0-exp.5
-    - 1.2.0-exp.6
-    - 1.2.0-exp.7
-    verified: 1.0.1
+    - 1.2.4
+    recommended: 1.2.4
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -5300,7 +5798,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -5308,7 +5806,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 1.0.3
+    version: 2.0.1
   keywords:
   - test
   - coverage
@@ -5321,25 +5819,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637594767130000000
-  documentationUrl: 
+  datePublishedTicks: 638212235100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 2777556fc6ade4006a02ea7febbae1dd3257eb7d
+    revision: a7dd0751db55cd55e3b336723fb51433c1de7244
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 1.2.4
     nextVersion: 
-- packageId: com.unity.2d.animation@7.0.5
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.animation@9.0.3
   testable: 0
   isDirectDependency: 0
-  version: 7.0.5
+  version: 9.0.3
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.animation@7.0.5
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.animation@9.0.3
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -5348,10 +5852,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5426,6 +5930,9 @@ m_ResolvedPackages:
     - 5.2.0
     - 5.2.1
     - 5.2.3
+    - 5.2.4
+    - 5.2.6
+    - 5.2.7
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
@@ -5442,29 +5949,50 @@ m_ResolvedPackages:
     - 7.0.4
     - 7.0.5
     - 7.0.6
+    - 7.0.7
+    - 7.0.8
+    - 7.0.9
+    - 7.0.10
+    - 7.0.11
+    - 7.0.12
     - 8.0.0-pre.3
     - 8.0.0-pre.4
     - 8.0.0
     - 8.0.1
     - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.0.5
     - 9.0.0-pre.1
     - 9.0.0-pre.3
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 10.0.0-pre.1
+    - 10.0.0-pre.2
+    - 10.0.0
+    - 10.0.1
+    - 10.0.2
+    - 10.0.3
     compatible:
-    - 7.0.5
-    - 7.0.6
-    verified: 7.0.6
+    - 9.0.3
+    recommended: 9.0.3
+    deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 8.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.collections
+    version: 1.1.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 8.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -5477,12 +6005,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.6.5
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.7
+  - name: com.unity.collections
+    version: 1.2.4
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
   keywords:
   - 2d
   - animation
@@ -5493,25 +6025,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637860696930000000
-  documentationUrl: 
+  datePublishedTicks: 638191394980000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 85b89d45fa263d1ee875d5166b61c69181713082
+    revision: 7d8e0c5910334b5bcf7795fe32bcde0a11d57109
     path: 
   unityLifecycle:
-    version: 7.0.5
+    version: 9.0.3
     nextVersion: 
-- packageId: com.unity.2d.pixel-perfect@5.0.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.pixel-perfect@5.0.3
   testable: 0
   isDirectDependency: 0
-  version: 5.0.1
+  version: 5.0.3
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.pixel-perfect@5.0.1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -5520,7 +6058,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -5531,7 +6069,7 @@ m_ResolvedPackages:
     the user. The user can adjust the definition of the pixel art rendered within
     the camera viewport through the component settings, as well preview any changes
     immediately in Game view by using the Run in Edit Mode feature.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5550,9 +6088,12 @@ m_ResolvedPackages:
     - 5.0.0-pre.2
     - 5.0.0
     - 5.0.1
+    - 5.0.2
+    - 5.0.3
     compatible:
-    - 5.0.1
-    verified: 5.0.1
+    - 5.0.3
+    recommended: 5.0.3
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -5567,25 +6108,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637637493430000000
+  datePublishedTicks: 638023910590000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 404f29a83b5666c45c2386a031f1f653fc6fd00d
+    revision: 6dea8ac5bd6953acd64f1ac9d470912954b0c015
     path: 
   unityLifecycle:
-    version: 5.0.1
+    version: 5.0.3
     nextVersion: 
-- packageId: com.unity.2d.psdimporter@6.0.3
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.psdimporter@8.0.2
   testable: 0
   isDirectDependency: 0
-  version: 6.0.3
+  version: 8.0.2
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.psdimporter@6.0.3
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.psdimporter@8.0.2
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -5594,11 +6141,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big)
     file format. The ScriptedImporter is currently targeted for users who wants to
     create multi Sprite character animation using Unity 2D Animation Package.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5641,6 +6188,7 @@ m_ResolvedPackages:
     - 4.1.3
     - 4.2.0
     - 4.3.0
+    - 4.3.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.1
@@ -5655,28 +6203,40 @@ m_ResolvedPackages:
     - 6.0.2
     - 6.0.3
     - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
     - 7.0.1
+    - 7.0.2
+    - 7.0.3
     - 8.0.0-pre.1
     - 8.0.0-pre.3
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
     compatible:
-    - 6.0.3
-    - 6.0.4
-    verified: 6.0.4
+    - 8.0.2
+    recommended: 8.0.2
+    deprecated: []
   dependencies:
   - name: com.unity.2d.animation
-    version: 7.0.4
+    version: 9.0.1
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 8.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.5
+    version: 9.0.3
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 8.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -5689,12 +6249,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.6.5
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.7
+  - name: com.unity.collections
+    version: 1.2.4
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
   keywords:
   - 2d
   - psdimporter
@@ -5706,25 +6270,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447900000000
-  documentationUrl: 
+  datePublishedTicks: 638067518780000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@8.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: fc4212736e8bcb753039f1a18964b98d929e4093
     path: 
   unityLifecycle:
-    version: 6.0.3
+    version: 8.0.2
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@7.0.4
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.spriteshape@9.0.2
   testable: 0
   isDirectDependency: 0
-  version: 7.0.4
+  version: 9.0.2
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.spriteshape@7.0.4
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.spriteshape@9.0.2
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -5733,11 +6303,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5808,28 +6378,37 @@ m_ResolvedPackages:
     - 7.0.3
     - 7.0.4
     - 7.0.5
+    - 7.0.6
+    - 7.0.7
     - 8.0.0-pre.4
     - 8.0.0-pre.5
     - 8.0.0
+    - 8.0.1
     - 9.0.0-pre.1
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 10.0.0-pre.1
+    - 10.0.0-pre.2
+    - 10.0.0
+    - 10.0.1
+    - 10.0.2
     compatible:
-    - 7.0.4
-    - 7.0.5
-    verified: 7.0.5
+    - 9.0.2
+    recommended: 9.0.2
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 6.0.3
-  - name: com.unity.2d.path
-    version: 5.0.2
+    version: 8.0.1
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 8.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -5840,12 +6419,10 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
+  - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
-  - name: com.unity.2d.path
-    version: 5.0.2
+    version: 1.8.7
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -5862,25 +6439,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447990000000
-  documentationUrl: 
+  datePublishedTicks: 638150103540000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: ff926a6d093212af31bc3c835f61abfbb1b3f163
     path: 
   unityLifecycle:
-    version: 7.0.4
+    version: 9.0.2
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.tilemap@1.0.0
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -5892,16 +6475,33 @@ m_ResolvedPackages:
   type: 
   description: 2D Tilemap Editor is a package that contains editor functionalities
     for editing Tilemaps.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords:
   - 2d
   - Tilemap
@@ -5912,6 +6512,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -5925,12 +6526,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.2
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.tilemap.extras@3.1.1
   testable: 0
   isDirectDependency: 0
-  version: 2.2.2
+  version: 3.1.1
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.tilemap.extras@3.1.1
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -5939,7 +6545,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: assets
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -5955,7 +6561,7 @@ m_ResolvedPackages:
 
     Other: Grid Information, Custom Rules
     for Rule Tile'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5970,6 +6576,7 @@ m_ResolvedPackages:
     - 1.8.1-preview
     - 1.8.2-preview
     - 1.8.3-preview
+    - 1.8.4-preview
     - 2.0.0-pre.1
     - 2.0.0-pre.2
     - 2.0.0
@@ -5977,13 +6584,26 @@ m_ResolvedPackages:
     - 2.2.1
     - 2.2.2
     - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.2.6
+    - 2.2.7
     - 3.0.0
     - 3.0.1
     - 3.0.2
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
     compatible:
-    - 2.2.2
-    - 2.2.3
-    verified: 2.2.3
+    - 3.1.1
+    recommended: 3.1.1
+    deprecated: []
   dependencies:
   - name: com.unity.modules.tilemap
     version: 1.0.0
@@ -6000,13 +6620,15 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
-  - name: com.unity.ugui
+  - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
     version: 1.0.0
   keywords:
   - 2d
@@ -6017,25 +6639,123 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637860696980000000
-  documentationUrl: 
+  datePublishedTicks: 638234725240000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 5b2ebfac9790f6a71a896669a8617bf600311d15
+    revision: 04abca0a975bb264c1f7530288b4ddfa2f4c45ea
     path: 
   unityLifecycle:
-    version: 2.2.2
+    version: 3.1.1
     nextVersion: 
-- packageId: com.unity.searcher@4.9.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.aseprite@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 4.9.1
+  version: 1.0.0
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.searcher@4.9.1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.aseprite@1.0.0
+  assetPath: Packages/com.unity.2d.aseprite
+  name: com.unity.2d.aseprite
+  displayName: 2D Aseprite Importer
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: asset
+  description: 2D Aseprite Importer is a package which enables the import of .aseprite
+    files from the Pixel Art tool Aseprite.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 6.0.6
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 8.0.1
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.7
+  keywords:
+  - 2d
+  - Aseprite
+  - Pixel
+  - Art
+  - assetimporter
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638203510100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
+    revision: 419b070b489a77cf611d9d4ebff29eed4ef0bea7
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.searcher@4.9.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.2
+  source: 1
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.searcher@4.9.2
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6044,10 +6764,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -6068,9 +6788,9 @@ m_ResolvedPackages:
     - 4.9.1
     - 4.9.2
     compatible:
-    - 4.9.1
     - 4.9.2
-    verified: 4.9.2
+    recommended: 4.9.2
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -6083,25 +6803,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637695653650000000
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 9e68a2a9ba29bd6783bc91d15ff82bbd459f2163
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
     path: 
   unityLifecycle:
-    version: 4.9.1
+    version: 4.9.2
     nextVersion: 
-- packageId: com.unity.2d.common@6.0.3
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.2d.common@8.0.1
   testable: 0
   isDirectDependency: 0
-  version: 6.0.3
+  version: 8.0.1
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.common@6.0.3
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.2d.common@8.0.1
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6110,17 +6836,67 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
     - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
     compatible:
-    - 6.0.3
-    verified: 6.0.3
+    - 8.0.1
+    recommended: 8.0.1
+    deprecated: []
   dependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -6128,8 +6904,10 @@ m_ResolvedPackages:
     version: 1.1.0
   - name: com.unity.modules.uielements
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.burst
-    version: 1.5.1
+    version: 1.7.3
   resolvedDependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -6143,10 +6921,10 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
+  - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.7
   keywords:
   - 2d
   registry:
@@ -6156,49 +6934,144 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638029769550000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: 6fc635d83d4bb0b2640893b8d4a0f3934044aeb5
     path: 
   unityLifecycle:
-    version: 6.0.3
+    version: 8.0.1
     nextVersion: 
-- packageId: com.unity.2d.path@5.0.2
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.collections@1.2.4
   testable: 0
   isDirectDependency: 0
-  version: 5.0.2
+  version: 1.2.4
   source: 1
-  resolvedPath: /Users/liamarbuckle/Documents/Unity/starsailors-boilerplate-fork/Library/PackageCache/com.unity.2d.path@5.0.2
-  assetPath: Packages/com.unity.2d.path
-  name: com.unity.2d.path
-  displayName: 2D Path
+  resolvedPath: /Users/buyer/sailors/Unity/starsailors-boilerplate/Library/PackageCache/com.unity.collections@1.2.4
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
   author:
     name: 
     email: 
     url: 
-  category: 2D
-  type: 
-  description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier splines)
-    in EditorWindows and the SceneView."
-  status: 4
+  category: 
+  type: asset
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  status: 0
   errors: []
   versions:
     all:
-    - 5.0.2
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
     compatible:
-    - 5.0.2
-    verified: 5.0.2
-  dependencies: []
-  resolvedDependencies: []
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    recommended: 1.2.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.6.6
+  - name: com.unity.test-framework
+    version: 1.1.31
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.7
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords:
-  - 2d
-  - path
+  - dots
+  - collections
+  - unity
   registry:
     id: main
     name: 
@@ -6206,16 +7079,22 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637908244640000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 32d153034bea0703098263469b88c73619422782
     path: 
   unityLifecycle:
-    version: 5.0.2
+    version: 1.2.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 

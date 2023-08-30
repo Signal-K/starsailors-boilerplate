@@ -22,19 +22,18 @@ public class ShapeGenerator {
 
         if (noiseFilters.Length > 0) {
             firstLayerValue = noiseFilters[0].Evaluate(pointOnUnitSphere);
-            if (settings.noiseLayers[0].enabled)
-            {
+            if (settings.noiseLayers[0].enabled) {
                 elevation = firstLayerValue;
             }
         }
 
         for (int i = 1; i < noiseFilters.Length; i++) {
-            if (settings.noiseLayers[i].enabled)
-            {
+            if (settings.noiseLayers[i].enabled) {
                 float mask = (settings.noiseLayers[i].useFirstLayerAsMask) ? firstLayerValue : 1;
                 elevation += noiseFilters[i].Evaluate(pointOnUnitSphere) * mask;
             }
         }
+        
         elevation = settings.planetRadius * (1 + elevation);
         elevationMinMax.AddValue(elevation);
         return pointOnUnitSphere * elevation;

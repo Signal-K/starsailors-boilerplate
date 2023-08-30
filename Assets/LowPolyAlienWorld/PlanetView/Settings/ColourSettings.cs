@@ -10,6 +10,11 @@ public class ColourSettings : ScriptableObject {
     [System.Serializable]
     public class BiomeColourSettings {
         public Biome[] biomes;
+        public NoiseSettings noise;
+        public float noiseOffset;
+        public float noiseStrength;
+        [Range(0,1)]
+        public float blendAmount;
 
         [System.Serializable]
         public class Biome {
@@ -21,4 +26,4 @@ public class ColourSettings : ScriptableObject {
             public float tintPercent;
         }
     }
-}
+} 

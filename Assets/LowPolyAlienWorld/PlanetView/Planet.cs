@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class Planet : MonoBehaviour {
     [Range(2, 256)]
     public int resolution = 10;
     public bool autoUpdate = true;
-    public enum FaceRenderMask { All, Top, Bottom, Left, Right, Front, Back }; // Only render 1 face at a time -> speed up when testing with high resolutions
+    public enum FaceRenderMask { All, Top, Bottom, Left, Right, Front, Back };
     public FaceRenderMask faceRenderMask;
+    public float TurnSpeed;
 
     public ShapeSettings shapeSettings;
     public ColourSettings colourSettings;
@@ -24,18 +26,17 @@ public class Planet : MonoBehaviour {
     MeshFilter[] meshFilters;
     TerrainFace[] terrainFaces;
 
-    private void OnValidate() {
-        GeneratePlanet();
+    void Start() {
+        StartCoroutine(GetRequest("http://127.0.0.1:5000"));
     }
-
-    async void Initialize() { // Initialising the mesh filters
+     
+	void Initialize() {
         shapeGenerator.UpdateSettings(shapeSettings);
         colourGenerator.UpdateSettings(colourSettings);
 
         if (meshFilters == null || meshFilters.Length == 0) {
             meshFilters = new MeshFilter[6];
         }
-
         terrainFaces = new TerrainFace[6];
 
         Vector3[] directions = { Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back };
@@ -57,20 +58,43 @@ public class Planet : MonoBehaviour {
         }
     }
 
+    IEnumerator GetRequest(string uri) {
+        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri)) {
+            yield return webRequest.SendWebRequest();
+            if (webRequest.isNetworkError) {
+                Debug.Log("Error: " + webRequest.error);
+            } else {
+                Debug.Log(webRequest.downloadHandler.text);
+
+                if (webRequest.downloadHandler.text == "Hello World") {
+                    Debug.Log("404");
+                }
+            }
+        }
+    }
+
+    private void Update() {
+        transform.Rotate(Vector3.up, TurnSpeed * Time.deltaTime);
+    }
+
     public void GeneratePlanet() {
         Initialize();
         GenerateMesh();
-        GenerateColors();
+        GenerateColours();
     }
 
     public void OnShapeSettingsUpdated() {
-        Initialize();
-        GenerateMesh();
+        if (autoUpdate) {
+            Initialize();
+            GenerateMesh();
+        }
     }
 
     public void OnColourSettingsUpdated() {
-        Initialize();
-        GenerateColors();
+        if (autoUpdate) {
+            Initialize();
+            GenerateColours();
+        }
     }
 
     void GenerateMesh() {
@@ -83,10 +107,12 @@ public class Planet : MonoBehaviour {
         colourGenerator.UpdateElevation(shapeGenerator.elevationMinMax);
     }
 
-    void GenerateColors() {
-        foreach (MeshFilter m in meshFilters)
-        {
-            colourGenerator.UpdateColours();
+    void GenerateColours() {
+        colourGenerator.UpdateColours();
+        for (int i = 0; i < 6; i++) {
+            if (meshFilters[i].gameObject.activeSelf) {
+                terrainFaces[i].UpdateUVs(colourGenerator);
+            }
         }
     }
 }
