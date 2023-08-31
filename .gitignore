@@ -11,6 +11,16 @@
 /[Uu]nityGenerated/
 /[Ll]ocal[Cc]ache/
 
+/Library/
+/Logs/
+/Temp/
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore Visual Studio Code settings
+.vscode/
+
 # Auto-generated Visual Studio or MonoDevelop solution and project files
 *.csproj
 *.unityproj
