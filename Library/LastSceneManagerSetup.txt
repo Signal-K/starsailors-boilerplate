@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/LowPolyAlienWorld/Nathan/Space Scene/Scenes/Spaceflight.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
