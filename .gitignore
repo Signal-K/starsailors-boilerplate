@@ -10,6 +10,18 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+# Unity generated folders
+/Library/
+/Logs/
+/Temp/
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
